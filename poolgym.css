@@ -1,0 +1,51 @@
+body
+{
+	background-color:rgba(27,31,34,0.85);
+	
+}
+p
+{
+	color: white;
+	font-size: 25px;
+	font-style:round;
+
+}
+
+h2
+{
+	font-size: 2.1rem;
+	line-height: 1.4;
+	letter-spacing: 0.3rem;
+	text-align: center;
+	color: white;
+	font-style: round;
+	margin-top: 50px;
+}
+p
+{
+	color: white;
+	font-size: 25px;
+	font-style: round;
+	text-align: center;
+}
+.menu
+{
+	width: 70%;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	top:170%;
+
+	transform: translate(-50%,-170%);
+	background-image: url(1pools.jpg);
+	background-size: 100% 100%;
+	box-shadow: 1px 2px 10px 5px white;
+	animation: slider 10s infinite linear;
+}
+@keyframes slider{
+	0%{background-image: url(1pools.jpg);}
+	20%{background-image: url(1pools2.jpg);}
+	40%{background-image: url(1pools3.jpg);}
+	60%{background-image: url(fitness2.jpg);}
+	80%{background-image: url(gym.jpg);}
+}
